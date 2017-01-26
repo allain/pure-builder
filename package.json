@@ -1,7 +1,7 @@
 {
   "name": "pure-builder",
   "version": "1.0.0",
-  "description": "Extends virtual-hyperscript compatible virtual dom libraries to accept a function as their first argument",
+  "description": "Extends virtual-hyperscript compatible function to accept builder functions",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
