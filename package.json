@@ -1,6 +1,6 @@
 {
   "name": "pure-builder",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Extends virtual-hyperscript compatible function to accept builder functions",
   "main": "index.js",
   "scripts": {
