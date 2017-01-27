@@ -1,0 +1,18 @@
+{
+  "name": "pure-builder-jsx-example",
+  "version": "0.0.0",
+  "description": "A pure-builder jsx usage example",
+  "scripts": {
+    "build": "browserify example.js -o bundle.js -t [ babelify ]"
+  },
+  "keywords": [
+    "pure-builder",
+    "example"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0"
+  }
+}

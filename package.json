@@ -1,20 +1,19 @@
 {
   "name": "pure-builder",
   "version": "0.1.0",
-  "description": "Extends virtual-hyperscript compatible function to accept builder functions",
+  "description": "Extends virtual-hyperscript compatible functions to accept builders as their first arguments",
   "main": "index.js",
   "scripts": {
+    "format": "standard-format --write",
     "test": "tape test.js"
   },
-  "repository": { 
-		"type" : "git",
-    "url" : "https://github.com/allain/pure-builder.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allain/pure-builder.git"
   },
   "author": "Allain Lalonde <allain.lalonde@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "get-parameter-names": "^0.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^4.6.3",
     "virtual-dom": "^2.1.1"
